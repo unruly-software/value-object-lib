@@ -1,0 +1,661 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ABN > should reject invalid input: "00000000000" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ABN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ABN > should reject invalid input: "11834387136" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ABN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ABN > should reject invalid input: "12345678912" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ABN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ABN > should reject invalid input: "99999999999" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ABN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ABN > should reject invalid input: "Hello world" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ABN. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ABN > should reject invalid input: "My ABN is 91 834 387 136" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ABN. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ABN > should reject invalid input: "c26177aa-5b00-4808-b81a-34057bfc189e" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ABN. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "000 250 001" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "000 500 004" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "000 750 006" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "001 000 003" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "001 250 008" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "001 500 002" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "001 749 199" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "51 824 753 556" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN format. Must be 11 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "51-824-753-556" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN format. Must be 11 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "12345678912" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN format. Must be 11 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "Hello world" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "c26177aa-5b00-4808-b81a-34057bfc189e" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/ACN > should reject invalid input: "my acn is 000 000 019" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid ACN. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/AnyTFN > should reject invalid input: "37 118 656" 1`] = `
+[ZodError: [
+  {
+    "code": "invalid_union",
+    "errors": [
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be 9 digits long.",
+          "path": []
+        }
+      ],
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN checksum.",
+          "path": []
+        }
+      ]
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/AnyTFN > should reject invalid input: "123456789" 1`] = `
+[ZodError: [
+  {
+    "code": "invalid_union",
+    "errors": [
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN checksum.",
+          "path": []
+        }
+      ],
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be 8 digits long.",
+          "path": []
+        }
+      ]
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/AnyTFN > should reject invalid input: "Longform prose is not expected to be valid" 1`] = `
+[ZodError: [
+  {
+    "code": "invalid_union",
+    "errors": [
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be a text value.",
+          "path": []
+        }
+      ],
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be a text value.",
+          "path": []
+        }
+      ]
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/AnyTFN > should reject invalid input: "not a number" 1`] = `
+[ZodError: [
+  {
+    "code": "invalid_union",
+    "errors": [
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be a text value.",
+          "path": []
+        }
+      ],
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be a text value.",
+          "path": []
+        }
+      ]
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/AnyTFN > should reject invalid input: "ooooooooo" 1`] = `
+[ZodError: [
+  {
+    "code": "invalid_union",
+    "errors": [
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be a text value.",
+          "path": []
+        }
+      ],
+      [
+        {
+          "code": "custom",
+          "message": "Invalid TFN format. Must be a text value.",
+          "path": []
+        }
+      ]
+    ],
+    "path": [],
+    "message": "Invalid input"
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "123 and 456" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be only comprised of numbers.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "123" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be 6 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "123-45a" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be only comprised of numbers.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "123-456-789" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be 6 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "123-4567" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be 6 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "1234567" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be 6 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "123456789" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be 6 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BSB > should reject invalid input: "no numbers" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid BSB format. Must be only comprised of numbers.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "\\n865414088\\n" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 8 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "37 118 656" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "459-599-230" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 8 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "565.051.603" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 8 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "907 974 668" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 8 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "1124-740-82" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 8 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "123456789" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 8 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "Longform prose is not expected to be valid" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "not a number" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/BusinessTFN > should reject invalid input: "ooooooooo" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "37 118 629" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "37 118 655" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "37 118 656" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "37 118 660" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "37 118 705" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "38 593 474" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "38 593 519" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "81 854 402" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "85 655 734" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "85 655 797" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "85 655 810" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be 9 digits long.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "123456789" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN checksum.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "Longform prose is not expected to be valid" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "not a number" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be a text value.",
+    "path": []
+  }
+]]
+`;
+
+exports[`Australian Value Objects > @unruly-software/value-object-lib/IndividualTFN > should reject invalid input: "ooooooooo" 1`] = `
+[ZodError: [
+  {
+    "code": "custom",
+    "message": "Invalid TFN format. Must be a text value.",
+    "path": []
+  }
+]]
+`;

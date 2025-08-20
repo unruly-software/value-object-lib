@@ -1,0 +1,59 @@
+{
+  "name": "@unruly-software/value-object-lib",
+  "packageManager": "yarn@3.5.0",
+  "version": "0.0.2",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rm -rf ./dist && microbundle",
+    "build:watch": "microbundle dev",
+    "clean": "rm -rf ./dist",
+    "test": "vitest",
+    "version": "changeset version",
+    "release": "CI=true yarn --mode=update-lockfile && yarn build && CI=true yarn test && changeset publish",
+    "lint": "eslint src/**/*.ts",
+    "ci": "CI=true yarn build && CI=true yarn test && yarn lint && tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@unruly-software/value-object": "^1.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
+    "@typescript-eslint/eslint-plugin": "5.59.8",
+    "@typescript-eslint/parser": "5.59.8",
+    "@unruly-software/value-object": "^1.0.0",
+    "@vitest/coverage-istanbul": "^0.32.2",
+    "eslint": "8.41.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "microbundle": "0.15.1",
+    "prettier": "2.8.8",
+    "typescript": "5.0.4",
+    "vitest": "^0.31.3",
+    "zod": "^4.0.0"
+  },
+  "amdName": "value-object-lib",
+  "main": "dist/value-object-lib.js",
+  "module": "dist/value-object-lib.module.js",
+  "types": "dist/index.d.ts",
+  "umd:main": "dist/value-object-lib.umd.js",
+  "source": "src/index.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/value-object-lib.d.ts",
+      "umd": "./dist/value-object-lib.umd.js",
+      "import": "./dist/value-object-lib.mjs",
+      "require": "./dist/value-object-lib.js"
+    },
+    "./au": {
+      "types": "./dist/au/value-object-lib.d.ts",
+      "umd": "./dist/au/value-object-lib.umd.js",
+      "import": "./dist/au/value-object-lib.mjs",
+      "require": "./dist/au/value-object-lib.js"
+    }
+  }
+}
