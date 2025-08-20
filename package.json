@@ -44,16 +44,10 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./dist/value-object-lib.d.ts",
+      "types": "./dist/index.d.ts",
       "umd": "./dist/value-object-lib.umd.js",
       "import": "./dist/value-object-lib.mjs",
       "require": "./dist/value-object-lib.js"
-    },
-    "./au": {
-      "types": "./dist/au/value-object-lib.d.ts",
-      "umd": "./dist/au/value-object-lib.umd.js",
-      "import": "./dist/au/value-object-lib.mjs",
-      "require": "./dist/au/value-object-lib.js"
     }
   }
 }
