@@ -3,7 +3,7 @@ import {ABN, ACN, AnyTFN, BSB, BusinessTFN, IndividualTFN} from '../src/au'
 import z from 'zod'
 import {ValueObject} from '@unruly-software/value-object'
 
-const testValueObject = <T extends ValueObject.ValueObjectConstructor<string, any>>(ctor: T, tests: {
+const testValueObject = <T extends ValueObject.ValueObjectConstructor<string, any, any>>(ctor: T, tests: {
   invalid: unknown[]
   valid: [input: Parameters<T['fromJSON']>[0], output: InstanceType<T>['props']][]
 }) => {
